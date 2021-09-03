@@ -409,7 +409,7 @@ const randomText = (maxChars, minWords = 100) => {
   while (buf.length < minWords) {
     buf.push(...chain.generateRandom(maxChars).split(' '));
   }
-  return buf.join(' ').substr(0, maxChars);
+  return buf.slice(0, minWords).join(' ').substr(0, maxChars);
 };
 
 export default randomText;
