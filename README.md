@@ -1,7 +1,7 @@
 Wrecksas
 --------
 
-This Chromium extension prefills the pro-life whistleblower form with garbage data.  I created this because they added a reCAPTCHA, and this was the easiest way to get around that.  You still have to hit the reCAPTCHA button and submit.  When done, hit refresh, and it'll be filled with new nonsense.
+This Chromium extension prefills the pro-life whistleblower form with garbage data.  I created this because they added a reCAPTCHA, and this was the easiest way to get around that.  You still have to hit the reCAPTCHA button and submit.  When done, it will refresh, and be filled with new nonsense.
 
 ## Installation
 
@@ -16,9 +16,8 @@ This Chromium extension prefills the pro-life whistleblower form with garbage da
 1. Browse to https://prolifewhistleblower.com/anonymous-form/
 2. You'll see the form is already filled with arglebargle.
 3. Validate that you are not, in fact, a robot
-4. Hit submit
-5. Refresh the page
-6. See step 1.
+4. Hit submit and wait for the refresh
+5. See step 1.
 
 ## Modifying
 

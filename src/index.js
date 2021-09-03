@@ -41,4 +41,8 @@ const typeText = async (sel, text) => {
   await typeText('form input[name="text-4"]', zip);
   await typeText('form input[name="text-5"]', county);
   (await selector('form input[value="no"]+.forminator-checkbox-box')).click();
+  (await selector('form')).addEventListener('submit', async () => {
+    await delay(5000);
+    window.location.reload();
+  });
 })();
