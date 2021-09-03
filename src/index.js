@@ -6,7 +6,7 @@ const { city, zip, county } = randomZip();
 
 const delay = t => new Promise(r => setTimeout(r, t));
 
-const selector = async (sel, time = 5000, poll = 100) => {
+const selector = async (sel, time = 30000, poll = 100) => {
   const start = Date.now();
   while (!document.querySelector(sel) && Date.now() - start < time) {
     await delay(poll);
